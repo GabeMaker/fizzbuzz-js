@@ -1,5 +1,9 @@
 var Javabuzz = function(){};
 
 Javabuzz.prototype.isDivisibleByThree = function(number) {
-  return true;
+  if (number % 3 == 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
